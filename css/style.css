@@ -1,0 +1,143 @@
+html,body{
+	min-height: 100%;
+}
+html{
+	height: 100%;
+}
+*{
+	transition: all .1s ease-in;
+	margin: 0;
+}
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+body{
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: #fff;
+	font-size: 28px;
+	background-color: #2b81ac;
+	margin: 0;
+}
+.ba-wrap{
+	/* max-width: 1024px; */
+	background-color:#3399cc;
+	margin: 20px; 
+	
+}
+h1{
+	font-size: 28px;
+}
+.ba-header{
+	padding: 10px 0px;
+
+}
+.ba-container{
+	max-width: 800px;
+	margin: 0 auto;
+	/* background-color: #3399cc; */
+	padding-bottom: 50px;
+	
+	
+}
+.ba-cities{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 800px;
+	/* border: 3px solid #fff; */
+	font-size: 0;
+	border: 3px solid #fff;
+	padding: 0px;
+	
+}
+.ba-cities li{
+	/* display: inline-block; */
+	list-style-type: none;
+	border: 3px solid #fff;
+	font-size: 20px;
+	color: rgba(255,255, 255, 0.7);
+	opacity: 0.7;
+	text-align: center;
+	padding: 20px;
+	align-self: center;
+	/* align-content: stretch; */
+	/* vertical-align: middle; */
+}
+.ba-city{
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 15px;
+}
+.ba-cities li:hover{
+	opacity: 1;
+}
+.ba-temperatue, i{
+	display: inline-block;
+}
+.ba-lisbon{
+	width: 50%;
+	background-color: #3399cc;
+	border: 3px solid #fff;
+}
+.ba-paris{
+	width: 25%;
+	border: 3px solid #fff;
+	background-color: #33cccc;
+
+}
+.ba-belgrade{
+	width: 25%;
+	border: 3px solid #fff;
+	background-color: #996699;
+
+}
+.ba-moskow{
+	width: 25%;
+	border: 3px solid #fff;
+	background-color: #c24747;
+
+}
+.ba-tel-aviv{
+	width: 25%;
+	border: 3px solid #fff;
+	background-color: #e2674a;
+
+}
+.ba-cair{
+	width: 25%;
+	border: 3px solid #fff;
+	background-color: #ffcc66;
+
+}
+.ba-new-york{
+	width: 25%;
+	border: 3px solid #fff;
+	background-color: #99cc99;
+
+}
+.ba-new-delhi{
+	width: 25%;
+	border: 3px solid #fff;
+	background-color: #669999;
+
+}
+.ba-san-francisco{
+	width: 50%;
+	border: 3px solid #fff;
+	background-color: #cc6699;
+
+}
+.ba-tokyo{
+	width: 25%;
+	border: 3px solid #fff;
+	background-color: #339966;
+
+}
+.ba-sydney{
+	width: 100%;
+	border: 3px solid #fff;
+	background-color: #666699;
+	
+}
